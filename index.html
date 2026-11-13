@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le Drop</title>
+<meta name="description" content="Le Drop — sélection d'objets pour le bureau, la maison et le quotidien. Expédié en France.">
+<style>
+  :root{--bg:#0b0b0f;--fg:#f4f4f5;--muted:#a1a1aa;--accent:#fe2c55;--line:#26262e}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+       font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+       line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:720px;margin:0 auto;padding:0 16px}
+  header{padding:80px 0 48px;text-align:center}
+  .mark{width:72px;height:72px;margin:0 auto 24px;display:block}
+  h1{font-size:clamp(2.5rem,8vw,4rem);margin:0 0 12px;letter-spacing:-.03em;font-weight:800}
+  .tagline{color:var(--muted);font-size:1.125rem;margin:0}
+  main{padding:0 0 64px}
+  section{border-top:1px solid var(--line);padding:40px 0}
+  h2{font-size:1.25rem;margin:0 0 12px;letter-spacing:-.01em}
+  p{margin:0 0 12px;color:#d4d4d8}
+  ul{margin:0;padding-left:20px;color:#d4d4d8}
+  li{margin-bottom:8px}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  footer{border-top:1px solid var(--line);padding:32px 0 64px;color:var(--muted);font-size:.9rem;
+         display:flex;gap:20px;flex-wrap:wrap;justify-content:center}
+  @media(prefers-color-scheme:light){
+    :root:not([data-theme="dark"]){--bg:#ffffff;--fg:#0b0b0f;--muted:#52525b;--line:#e4e4e7}
+    :root:not([data-theme="dark"]) p,:root:not([data-theme="dark"]) ul{color:#3f3f46}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <svg class="mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+      <path d="M32 6c9 11 15 18.5 15 26a15 15 0 11-30 0c0-7.5 6-15 15-26z" fill="#fe2c55"/>
+    </svg>
+    <h1>Le Drop</h1>
+    <p class="tagline">Une sélection, chaque semaine. Expédié en France.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Ce que nous faisons</h2>
+      <p>Le Drop sélectionne et revend des objets du quotidien : accessoires de bureau,
+         rangement, éclairage, et d'autres catégories au fil des saisons. Chaque référence
+         est choisie une par une, pas importée en masse depuis un catalogue.</p>
+    </section>
+
+    <section>
+      <h2>Où nous trouver</h2>
+      <p>Nos produits sont présentés sur TikTok et vendus via TikTok Shop.
+         Les contenus publiés (photos et carrousels) présentent les articles
+         disponibles à la vente.</p>
+    </section>
+
+    <section>
+      <h2>Livraison et retours</h2>
+      <ul>
+        <li>Expédition vers la France métropolitaine.</li>
+        <li>Délai indicatif précisé sur chaque fiche produit.</li>
+        <li>Droit de rétractation de 14 jours à compter de la réception, conformément au code de la consommation.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Nous contacter</h2>
+      <p>Pour toute question sur une commande, une livraison ou une demande de retour :
+         <a href="mailto:CONTACT@EXEMPLE.FR">CONTACT@EXEMPLE.FR</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="./cgu.html">Conditions générales</a>
+    <a href="./confidentialite.html">Politique de confidentialité</a>
+  </footer>
+</div>
+</body>
+</html>
